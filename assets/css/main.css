@@ -3218,7 +3218,7 @@ input, select, textarea {
 	#wrapper {
 		position: relative;
 		width: 100vw;
-		padding: 0 0 10rem 0;
+		padding: 0 0 5rem 0;
 	}
 
 		#wrapper:before {
@@ -3271,6 +3271,12 @@ input, select, textarea {
 				}
 
 			#wrapper section > .content {
+				grid-area: content;
+				max-width: 60rem;
+				position: relative;
+			}
+
+			#wrapper section > .survey-content {
 				grid-area: content;
 				max-width: 60rem;
 				position: relative;
