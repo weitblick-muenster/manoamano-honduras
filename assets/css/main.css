@@ -4031,3 +4031,9 @@ input, select, textarea {
 				}
 
 		}
+
+		@media screen and (max-width: 1152px) {
+			#nav{
+				width: 100%;
+			}
+		}
