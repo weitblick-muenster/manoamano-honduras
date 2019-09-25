@@ -157,7 +157,7 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #ffffff;
+		background-color: #FCF9FA;
 		color: #000000;
 	}
 
@@ -3922,7 +3922,7 @@ input, select, textarea {
 		width: 50%;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #FCF9FA;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3994,11 +3994,11 @@ input, select, textarea {
 				}
 
 					#nav ul li a:hover {
-						background-color: rgba(222, 222, 222, 0.25);
+						background-color: rgba(243, 152, 118, 0.5);
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
+						background-color: #F39876;
 						box-shadow: none;
 					}
 
@@ -4006,7 +4006,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: #FCF9FA;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
