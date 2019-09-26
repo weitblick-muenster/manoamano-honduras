@@ -3920,7 +3920,7 @@ input, select, textarea {
 		color: #636363;
 		position: absolute;
 		width: 50%;
-		max-width: calc(100% - 4em);
+		max-width: 100%;
 		padding: 1em;
 		background-color: #FCF9FA;
 		border-top-left-radius: 0.25em;
@@ -3977,6 +3977,7 @@ input, select, textarea {
 				margin: 0 0.35em;
 				padding: 0;
 				vertical-align: middle;
+				float: left;
 			}
 
 				#nav ul li a {
@@ -4009,7 +4010,7 @@ input, select, textarea {
 			background-color: #FCF9FA;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
-			z-index: 10000;
+			z-index: 10;
 		}
 
 			#nav.alt ul li {
@@ -4037,3 +4038,29 @@ input, select, textarea {
 				width: 100%;
 			}
 		}
+
+/* Logo */
+#logo{
+	float: left;
+	width: 5%;
+	max-height: inherit;
+	display: inline-block;
+	padding: 0;
+	vertical-align: middle;
+}
+
+/* Stickyness */
+@media screen and (min-width: 1152px){
+	.sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 9;
+	padding-top: 90px;
+	}
+
+	.child{
+		padding-top: 130px;
+		z-index: 8;
+	}
+}
