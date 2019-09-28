@@ -3821,7 +3821,8 @@ input, select, textarea {
 	}
 
 	body.is-mobile #wrapper > section.intro > header {
-		background-position: 25% 23%;
+		background-attachment: fixed;
+		background-position: 25% 50%;
 	}
 
 	#wrapper:before {
