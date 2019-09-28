@@ -3605,9 +3605,10 @@ input, select, textarea {
 					#wrapper > section > header {
 						background-attachment: fixed;
 						background-color: #F39876;
+						background-image: url('../../images/svg/circles.svg');
 						background-position: 25% 50%;
 						background-repeat: repeat-y;
-						background-size: 40rem auto;
+						background-size: 100% 180%;
 					}
 
 						#wrapper > section > header > * {
@@ -3809,9 +3810,9 @@ input, select, textarea {
 
 	body.is-mobile #wrapper:before {
 		background-attachment: scroll;
-		background-position: 50% -3%;
+		background-position: 50% 20%;
 		background-repeat: repeat-y;
-		background-size: 150% auto;
+		background-size: 100% 180%;
 	}
 
 	body.is-mobile #wrapper > section > header {
