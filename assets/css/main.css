@@ -3809,14 +3809,14 @@ input, select, textarea {
 		}
 
 	body.is-mobile #wrapper:before {
-		background-attachment: scroll;
+		background-attachment: fixed;
 		background-position: 50% 20%;
 		background-repeat: repeat-y;
 		background-size: 100% 180%;
 	}
 
 	body.is-mobile #wrapper > section > header {
-		background-attachment: scroll;
+		background-attachment: fixed;
 		background-position: 25% 50%;
 	}
 
