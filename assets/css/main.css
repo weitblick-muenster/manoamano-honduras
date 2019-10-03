@@ -3947,12 +3947,12 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
-		color: #636363;
+		color: #B04B26;
 		position: absolute;
 		width: 50%;
 		max-width: 100%;
 		padding: 1em;
-		background-color: #FCF9FA;
+		background-color: #B04B26;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3960,19 +3960,19 @@ input, select, textarea {
 	}
 
 		#nav input, #nav select, #nav textarea {
-			color: #636363;
+			color: #B04B26;
 		}
 
 		#nav a:hover {
-			color: #636363;
+			color: #000000;
 		}
 
 		#nav strong, #nav b {
-			color: #636363;
+			color: #B04B26;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #636363;
+			color: #B04B26;
 		}
 
 		#nav blockquote {
@@ -4025,11 +4025,11 @@ input, select, textarea {
 				}
 
 					#nav ul li a:hover {
-						background-color: rgba(243, 152, 118, 0.5);
+						background-color: rgba(176, 75, 38, 0.5);
 					}
 
 					#nav ul li a.active {
-						background-color: #F39876;
+						background-color: #B04B26;
 						box-shadow: none;
 					}
 
@@ -4037,7 +4037,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: #FCF9FA;
+			background-color: #F39876;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10;
