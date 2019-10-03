@@ -3225,7 +3225,7 @@ input, select, textarea {
 			background-attachment: fixed;
 			background-color: #F39876;
 			background-image: url('../../images/svg/circles.svg');
-			background-position: -50% 75%;
+			background-position: -50% 65%;
 			background-repeat: repeat-y;
 			background-size: 90% 180%;
 			content: '';
@@ -4029,7 +4029,7 @@ input, select, textarea {
 					}
 
 					#nav ul li a.active {
-						background-color: #B04B26;
+						background-color: rgba(176, 75, 38, 0.75);
 						box-shadow: none;
 					}
 
