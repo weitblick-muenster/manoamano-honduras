@@ -3381,7 +3381,7 @@ input, select, textarea {
 			#wrapper > section:last-of-type > header:after {
 				background: #B04B26;
 				border-radius: 0.5rem;
-				bottom: -4rem;
+				bottom: -1rem;
 				content: '';
 				display: block;
 				height: 0.5rem;
@@ -3417,6 +3417,10 @@ input, select, textarea {
 
 			#wrapper section > .first-content {
 				padding: 5rem 5rem 0rem 5rem;
+			}
+
+			#wrapper section > .child-content {
+				padding: 130px 5rem 0 5rem;
 			}
 
 			#wrapper section > .survey-content {
