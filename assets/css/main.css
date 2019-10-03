@@ -3246,7 +3246,7 @@ input, select, textarea {
 		}
 
 		#wrapper section.anchor {
-			padding-top: 50px;
+			margin-top: 50px;
 		}
 
 			#wrapper section:first-child {
@@ -3403,7 +3403,7 @@ input, select, textarea {
 			}
 
 		#wrapper section {
-			margin: 5rem 0 0 0;
+			margin: 0;
 		}
 
 			#wrapper section > header {
@@ -3415,8 +3415,12 @@ input, select, textarea {
 				padding: 0 5rem;
 			}
 
+			#wrapper section > .first-content {
+				padding: 5rem 5rem 0rem 5rem;
+			}
+
 			#wrapper section > .survey-content {
-				padding: 0 0rem;
+				padding: 0;
 			}
 
 			#wrapper section > footer {
