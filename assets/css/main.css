@@ -3984,8 +3984,8 @@ input, select, textarea {
 			border-color: #dddddd;
 		}
 
-		#nav hr {
-			border-bottom-color: #dddddd;
+		#nav a {
+			border-bottom: none;
 		}
 
 		#nav + #wrapper {
