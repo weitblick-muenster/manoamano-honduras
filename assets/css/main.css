@@ -3424,7 +3424,7 @@ input, select, textarea {
 			}
 
 			#wrapper section > .survey-content {
-				padding: 0;
+				padding: 5rem 0 0 0;
 			}
 
 			#wrapper section > footer {
@@ -3509,7 +3509,7 @@ input, select, textarea {
 					}
 
 					#wrapper section > .survey-content {
-						padding: 0;
+						padding: 4rem 0 0 0;
 					}
 
 					#wrapper section > footer {
@@ -3614,7 +3614,7 @@ input, select, textarea {
 					}
 
 					#wrapper section > .survey-content {
-						padding: 0;
+						padding: 4rem 0 0 0;
 					}
 
 					#wrapper section > footer {
@@ -3735,7 +3735,7 @@ input, select, textarea {
 					}
 
 					#wrapper section > .survey-content {
-						padding: 0;
+						padding: 4 rem 0 0 0;
 					}
 
 						#wrapper > section > .content > section {
@@ -3775,7 +3775,7 @@ input, select, textarea {
 				}
 
 				#wrapper section > .survey-content {
-					padding: 0;
+					padding: 3rem 0 0 0;
 				}
 
 					#wrapper > section > .content > section {
@@ -3815,7 +3815,7 @@ input, select, textarea {
 				}
 
 				#wrapper section > .survey-content {
-					padding: 0;
+					padding: 2.25rem 0 0 0;
 				}
 
 					#wrapper > section > .content > section {
