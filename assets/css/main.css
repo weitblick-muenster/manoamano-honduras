@@ -4054,7 +4054,15 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#nav{
-				width: 100%
+				width: 100%;
+				top: -50px;
+				transition: top 0.3s;
+			}
+
+			#nav ul li{
+				width:100%;
+				padding: 10px 0;
+				float: right;
 			}
 
 			#nav span.icon {
@@ -4078,6 +4086,8 @@ input, select, textarea {
 		@media screen and (min-width: 737px) and (max-width: 1152px) {
 			#nav{
 				width: 100%;
+				top: 0;
+				transition: none;
 			}
 
 			#nav span.icon {

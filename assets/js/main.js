@@ -293,5 +293,23 @@
 					});
 
 		}
+		var burger = document.getElementById("burger");
+		$window.on("resize", function() {
+			if ($(window).width() > 735) {
+				burger.style.display = "block"
+			}
+		});
+
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if ($(window).width() < 737){
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("nav").style.top = "0";
+				} else {
+					document.getElementById("nav").style.top = "-50px";
+				}
+			}
+		}
 
 })(jQuery);
