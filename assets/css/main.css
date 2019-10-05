@@ -3428,7 +3428,7 @@ input, select, textarea {
 			}
 
 			#wrapper section > footer {
-				padding: 0 10rem;
+				padding: 0 10rem 0 0;
 			}
 
 		#wrapper > section > header:before {
@@ -4169,4 +4169,15 @@ input, select, textarea {
 	#svg {
 		display: none;
 	}
+}
+
+.last-footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.impressum {
+	display: flex;
+	align-self: flex-end;
 }
