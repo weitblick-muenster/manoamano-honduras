@@ -3286,6 +3286,12 @@ input, select, textarea {
 				position: relative;
 			}
 
+			#wrapper section > .first-content {
+				grid-area: content;
+				max-width: 60rem;
+				position: relative;
+			}
+
 			#wrapper section > footer {
 				grid-area: footer;
 				text-align: right;
@@ -3734,8 +3740,12 @@ input, select, textarea {
 						padding: 4rem 4rem;
 					}
 
+					#wrapper > section > .first-content {
+						padding: 4rem 4rem;
+					}
+
 					#wrapper section > .survey-content {
-						padding: 4 rem 0 0 0;
+						padding: 4rem 0 0 0;
 					}
 
 						#wrapper > section > .content > section {
@@ -3771,6 +3781,10 @@ input, select, textarea {
 				}
 
 				#wrapper > section > .content {
+					padding: 3rem 2rem;
+				}
+
+				#wrapper > section > .first-content {
 					padding: 3rem 2rem;
 				}
 
@@ -3811,6 +3825,10 @@ input, select, textarea {
 				}
 
 				#wrapper > section > .content {
+					padding: 2.25rem 1.5rem;
+				}
+
+				#wrapper > section > .first-content {
 					padding: 2.25rem 1.5rem;
 				}
 
