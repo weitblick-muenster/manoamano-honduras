@@ -44,7 +44,7 @@
               <div id="logo">
                 <a href="#wrapper"><img src="images/svg/logo_1.png" alt="Logo" style="max-width:100%;"></a>
               </div>
-              <ul>
+              <ul id="burger">
                 <li style="width:20px; height:1px"></li>
                 <li><a href="#idea">Idee</a></li>
                 <li><a href="#project">Projekt</a></li>
@@ -52,6 +52,9 @@
                 <li><a href="#events">Veranstaltungen</a></li>
                 <li><a href="#order">Bestellen</a></li>
               </ul>
+              <span class="icon" onclick="burger()">
+                <i class="fa fa-bars fa-lg"></i>
+              </span>
             </div>
             <header>
               <h1>manoamano</h1>
@@ -561,6 +564,16 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
       </div>
 
     <!-- Scripts -->
+      <script>
+        function burger() {
+          var x = document.getElementById("burger");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/jquery.scrolly.min.js"></script>
       <script src="assets/js/jquery.scrollex.min.js"></script>
