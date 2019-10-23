@@ -1666,6 +1666,15 @@ input, select, textarea {
 							justify-content: flex-start;
 						}
 
+					#wrapper > section.intro > .content {
+						height: 100%;
+						max-width: none;
+					}
+
+					.feedback {
+						margin-top: 0;
+					}
+
 					#wrapper section > .content {
 						padding: 0;
 						width: 100%;
@@ -2260,3 +2269,13 @@ input, select, textarea {
 	display: flex;
 	align-self: flex-end;
 }
+
+.survey-content-feedback{
+	margin-top: 100px;
+}
+
+	@media screen and (max-width: 1152px) {
+		.survey-content-feedback{
+			margin-top: 0;
+		}
+	}
