@@ -1924,6 +1924,12 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 320px) {
+			#wrapper > section > .content {
+				padding: 2.25rem 0;
+			}
+
+		}
 	body.is-mobile #wrapper:before {
 		background-attachment: fixed;
 		background-position: 50% 20%;
@@ -2277,5 +2283,11 @@ input, select, textarea {
 	@media screen and (max-width: 1152px) {
 		.survey-content-feedback{
 			margin-top: 0;
+			width: 100%;
+		}
+	}
+	@@media screen and (max-width: 480px) {
+		.survey-content-feedback{
+			padding: 0;
 		}
 	}
