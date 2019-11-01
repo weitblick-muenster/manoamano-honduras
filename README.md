@@ -19,4 +19,5 @@ Es gibt immer mindestens zwei Versionen (branches) des Codes, die zusammen den V
 - Darin herumeditieren (alle Änderungen werden nachverfolgt) und SPECHERN
 - Fertige Änderungen per 'stage (all)' annehmen, eine Beschreibung hinzufügen
 - immer wieder 'fetch' drücken (falls jemand in der Zwischenzeit dasselbe geändert hat)
-- Per 'commit to (branch_name)' in GitHub hochladen
+- Per 'commit to (branch_name)' in die lokale auf dem Rechner gespeicherte Version hochladen
+- Per 'publish' in GitHub hochladen
