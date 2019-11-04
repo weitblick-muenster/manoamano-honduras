@@ -6,7 +6,7 @@ Website of the manoamano coffee project from students in Muenster
 - Von Tobi eingeladen werden am Code mitzuschreiben
 - Atom [hier](https://atom.io/) als Editor herunterladen (und sich da bei GitHub anmelden)
 - Git [hier](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) runterladen und installieren
-- Das gesamte Projekt "runterladen", dazu muss man das Repository (alle Daten die hier liegen) "clonen". Wie das geht [siehe hier](https://git-scm.com/book/de/v1/Git-Grundlagen-Ein-Git-Repository-anlegen#Ein-existierendes-Repository-klonen)
+- Das gesamte Projekt "runterladen". Dazu "clone" das Projekt mit `git clone https://github.com/tobias-goertz/manoamano-honduras.git`, wie das geht [siehe hier](https://git-scm.com/book/de/v1/Git-Grundlagen-Ein-Git-Repository-anlegen#Ein-existierendes-Repository-klonen)
 
 ### Von Bäumen und Zweigen
 Es gibt immer mindestens zwei Versionen (branches) des Codes, die zusammen den Verlauf (tree) bilden:
