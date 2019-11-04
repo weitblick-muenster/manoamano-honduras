@@ -29,4 +29,3 @@ Es gibt immer mindestens zwei Versionen (branches) des Codes, die zusammen den V
 
 ### Get your creation online
 - Tobi schreiben, er 'merged' den eigenen branch mit dem master und dem gh-pages branch und stellt die Änderungen so online.
-- Der eigene branch kann dann gelöscht werden, das wird z.B. nach einem erfolgreichen Pull Request angeboten
