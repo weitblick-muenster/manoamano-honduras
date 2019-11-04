@@ -30,3 +30,6 @@ Es gibt immer mindestens zwei Versionen (branches) des Codes, die zusammen den V
 
 ### Get your creation online
 - Tobi schreiben, er 'merged' den eigenen branch mit dem master und dem gh-pages branch und stellt die Änderungen so online.
+
+### Questions?
+Schreibe eine Mail an tobias.goertz@weitblicker.org
