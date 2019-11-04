@@ -15,9 +15,9 @@ Es gibt immer mindestens zwei Versionen (branches) des Codes, die zusammen den V
 
 ### How to edit
 - Das Projekt in Atom öffnen
-- IMMER zuerst (und auch zwischendurch) unten rechts mit 'fetch' neue Änderungen abrufen und mit `pull` herunterladen
+- IMMER zuerst (und auch zwischendurch) unten rechts mit `fetch` neue Änderungen abrufen und mit `pull` herunterladen
 - Einen eigenen Branch `branch_name` erstellen, ausgehend vom master
-- Darin herumeditieren (alle Änderungen werden nachverfolgt) und SPECHERN
+- Darin herumeditieren (alle Änderungen werden nachverfolgt) und SPEICHERN
 - Fertige Änderungen per `stage (all)` annehmen, eine Beschreibung hinzufügen
 - immer wieder `fetch` drücken (falls jemand in der Zwischenzeit dasselbe geändert hat)
 - Per `commit to (branch_name)` in die lokale auf dem Rechner gespeicherte Version hochladen
