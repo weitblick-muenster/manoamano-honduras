@@ -4,8 +4,9 @@ Website of the manoamano coffee project from students in Muenster
 ### How to get access to editing the website
 - Einen GitHub-Account erstellen
 - Von Tobi eingeladen werden am Code mitzuschreiben
-- Atom als Editor herunterladen (und sich da bei GitHub anmelden)
-- Das gesamte Paket an Dateien als GitHub-Projekt herunterladen und in Atom öffnen
+- Atom [hier](https://atom.io/) als Editor herunterladen (und sich da bei GitHub anmelden)
+- Git [hier](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) runterladen und installieren
+- Das gesamte Projekt "runterladen", dazu muss man das Repository (alle Daten die hier liegen) "clonen". Wie das geht [siehe hier](https://git-scm.com/book/de/v1/Git-Grundlagen-Ein-Git-Repository-anlegen#Ein-existierendes-Repository-klonen)
 
 ### Von Bäumen und Zweigen
 Es gibt immer mindestens zwei Versionen (branches) des Codes, die zusammen den Verlauf (tree) bilden:
