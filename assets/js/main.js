@@ -84,16 +84,20 @@
 		}
 
 	// Cookie Banner.
-	$(document).ready(function(){   
-		setTimeout(function () {
-			$("#cookieConsent").fadeIn(200);
-		 }, 2000);
-		$("#closeCookieConsent, .cookieConsentOK").click(function() {
-			$("#cookieConsent").fadeOut(200);
-		}); 
-	}); 
+	$(document).ready(function(){
+		if (document.cookie.indexOf('cookie-notice=true') < 0) {
+			setTimeout(function () {
+				$("#cookieConsent").fadeIn(200);
+			 }, 2000);
 
-	
+			$("#closeCookieConsent, .cookieConsentOK").click(function() {
+				document.cookie = 'cookie-notice=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'
+				$("#cookieConsent").fadeOut(200);
+			});
+		}	else {return;}
+	});
+
+
 	// Gallery.
 		$('.gallery')
 			.on('click', 'a', function(event) {
